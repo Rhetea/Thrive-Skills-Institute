@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: linear-gradient(135deg, #f8c2c2, #fff);
+    color: #333; /* Dark text color */
+}
+
+.headerwrapper nav ul li {
+	list-style: none;
+	float: none;
+	margin: 20px;
+	padding: 15px;
+}
+
+.headerwrapper nav ul li a {
+	text-decoration: 'Arial';
+	color: #fff;
+}
+
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color:#625D5D;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #fa6d86; /* Pink color */
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+	color: #fff;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #625D5D; /* Carbon grey color */
+    border-radius: 20px;
+    transition: border 0.3s ease;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: 2px solid #fa6d86; /* Pink color on focus */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #fa6d86; /* Pink background */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #fa6d86; /* Darker pink on hover */
+}

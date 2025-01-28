@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skill Acquisition Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #625D5D;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #d48ba0;
+            color:#fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+		ul{
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+ul li{
+	list-style: none;
+	margin-left: 62px;
+	margin-top: 27px;
+	font-size: 15px;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #625D5D;
+	font-family: Aharoni;
+	font-weight: bolder;
+	transition:0.4s ease-in-out;
+}
+
+ul li a:hover{
+	color: #fff;
+}
+
+        .skill-card {
+            background-color: #625D5D;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            width: 250px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .skill-card:hover {
+            transform: scale(1.05);
+        }
+        .skill-card img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+        .skill-card h3 {
+            margin-top: 15px;
+            font-size: 1.2em;
+        }
+        .skill-card p {
+            color: #d48ba0;
+        }
+        .button {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #d48ba0;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #b37689;
+        }
+.testimonials {
+            background-color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+            margin-top: 40px;
+        }
+        .testimonial {
+            font-style: Italic;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+.testimonials {
+            font-family: Arial, sans-serif;
+            background-color: #d48ba0;
+            margin: 0;
+            padding: 0;
+}
+    
