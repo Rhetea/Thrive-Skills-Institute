@@ -265,7 +265,100 @@ ul li a:hover{
 .icon ion-icon:hover{
 	color:#ffc5c5;
 }
-@media (max-width: 768px) {
-  /* CSS for mobile devices */
+/* General Reset for Box Sizing */
+* {
+  box-sizing: border-box;
 }
+
+/* Media Query for Mobile (max-width: 768px) */
+@media (max-width: 768px) {
+
+  .main {
+    height: auto; /* Adjust height for smaller screens */
+    background-size: cover; /* Ensure the background adapts */
+  }
+
+  .navbar {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .icon {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .logo {
+    font-size: 28px; /* Smaller font for mobile */
+    line-height: 50px;
+    padding: 5px 0;
+  }
+
+  .menu {
+    width: 100%;
+  }
+
+  ul {
+    flex-direction: column; /* Stack the menu items vertically */
+    padding: 0;
+  }
+
+  ul li {
+    margin: 10px 0; /* Add spacing between menu items */
+  }
+
+  .search {
+    margin-left: 0; /* Center search on smaller screens */
+    width: 100%;
+    text-align: center;
+  }
+
+  .srch {
+    width: calc(100% - 110px); /* Adjust search bar width */
+    margin: 0 auto;
+  }
+
+  .btn {
+    width: 100px;
+  }
+
+  .content {
+    width: 90%;
+    margin: auto;
+    text-align: center; /* Center text content */
+  }
+
+  .content h1 {
+    font-size: 32px; /* Adjust heading size */
+  }
+
+  .content .cn {
+    margin: 20px auto; /* Center the button */
+  }
+
+  .form {
+    width: 90%;
+    left: auto;
+    right: auto;
+    top: auto;
+    margin: 20px auto; /* Center the form */
+  }
+
+  .form h2 {
+    font-size: 20px;
+  }
+
+  .form input {
+    width: 100%;
+  }
+
+  .btnn {
+    width: 100%;
+  }
+}
+
 	
