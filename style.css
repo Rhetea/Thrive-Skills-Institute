@@ -265,4 +265,7 @@ ul li a:hover{
 .icon ion-icon:hover{
 	color:#ffc5c5;
 }
+@media (max-width: 768px) {
+  /* CSS for mobile devices */
+}
 	
