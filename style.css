@@ -271,8 +271,8 @@ ul li a:hover{
 }
 
 /* Media Query for Mobile (max-width: 768px) */
-@media (max-width: 768px) {
-
+.@media (max-width: 768px) {
+}
   .main {
     height: auto; /* Adjust height for smaller screens */
     background-size: cover; /* Ensure the background adapts */
@@ -359,6 +359,6 @@ ul li a:hover{
   .btnn {
     width: 100%;
   }
-}
+
 
 	
