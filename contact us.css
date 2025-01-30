@@ -78,3 +78,13 @@ button {
 button:hover {
     background-color: #fa6d86; /* Darker pink on hover */
 }
+
+@Media screen and (max-width: 768px){
+	
+	.container{
+		padding: 20px;
+	}
+	.header{
+		font-size: 24px;
+	}
+}
