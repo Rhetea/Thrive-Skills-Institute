@@ -270,6 +270,16 @@ ul li a:hover{
   box-sizing: border-box;
 }
 
+@Media screen and (max-width: 768px){
+	
+	.container{
+		padding: 20px;
+	}
+	.header{
+		font-size: 24px;
+	}
+}
+
 /* Media Query for Mobile (max-width: 768px) */
 .@media (max-width: 768px) {
 
