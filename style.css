@@ -265,10 +265,6 @@ ul li a:hover{
 .icon ion-icon:hover{
 	color:#ffc5c5;
 }
-/* General Reset for Box Sizing */
-* {
-  box-sizing: border-box;
-}
 
 @Media screen and (max-width: 768px){
 	
